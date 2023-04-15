@@ -1,1 +1,14 @@
+# git alias
 alias g=git
+alias gac='git add . && git commit -a -m '
+alias gs='git status'
+alias ga='git add'
+alias gaa='git add --all'
+alias gc='git commit'
+alias gl='git log --oneline'
+alias gb='git checkout -b'
+alias gd='git diff'
+
+# ls alias
+# Display the directory structure better.
+alias tree='tree --dirsfirst -F'
